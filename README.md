@@ -1,1 +1,1 @@
-# KidSafe-chrome-extension
+# KidSafe chrome extension
