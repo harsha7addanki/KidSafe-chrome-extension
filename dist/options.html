@@ -10,12 +10,14 @@
         <nav class="navbar navbar-dark bg-dark">
             <a class="navbar-brand" href="#">KidSafe</a>
         </nav>
+        <br/><br/>
         <div class="container">
             <!-- Login Section -->
             <form id="login">
                 <h3>Login</h3>
                 <label for="Password">Password: </label><br>
                 <input type="password" id="Password" class="form-control"><br>
+                <br/><br/>
                 <input type="submit" class="btn btn-primary"><br>
             </form>
 
@@ -31,13 +33,32 @@
             <section id="settings">
                 <h3>Settings</h3>
                 <br/>
+
                 Add a site to block <input id="bsite" class="form-control"><br>
-                <button id="save" class="btn btn-primary">save</button><br>
                 <br/><br/>
+                <button id="save" class="btn btn-primary">save</button><br>
                 <!--  table -->
                 <table id="blockedSites" class="table table-striped table-hover table-dark table-border">
                     <tbody id="mmTbody">
                         <tr>Blocked Sites</tr>
+                    </tbody>
+                </table>
+                <br/><br/>
+                Youtube Channel  Block <input id="bchannel" class="form-control">
+                <button id="save2" class="btn btn-primary">save</button><br>
+                <br/><br/>
+                <table id="youtubeKey" class="table table-striped table-hover table-dark table-border">
+                    <tbody>
+                        <tr>Blocked Channels</tr>
+                    </tbody>
+                </table>
+                <br/><br/>
+                Youtube Word Block <input id="bword" class="form-control">
+                <br/><br/>
+                <button id="save3" class="btn btn-primary">save</button><br>
+                <table id="youtubeKey2" class="table table-striped table-hover table-dark table-border">
+                    <tbody>
+                        <tr>Blocked Words</tr>
                     </tbody>
                 </table>
             </section>

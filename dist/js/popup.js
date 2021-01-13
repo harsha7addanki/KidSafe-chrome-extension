@@ -29262,7 +29262,7 @@ __webpack_require__(/*! ../styles/popup.css */ "./src/styles/popup.css");
 class Main extends React.Component {
     render() {
         return (React.createElement("div", { className: "popup-padded" },
-            React.createElement("h1", null, "KidSafe")));
+            [React.createElement("h1", null, "KidSafe"), React.createElement("a", {href:"options.html", target:"_blank"}, "Settings")]));
     }
 }
 // --------------
